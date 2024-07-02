@@ -1,0 +1,184 @@
+/* --------------------------------------------- */
+/* WooCommerce Custom Tarp Builders FrontEnd --------------------------------------------------------------------------------- */
+/* --------------------------------------------- */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wctb-fe-tarpbuilder-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+    border: unset;
+}
+
+.wctb-fe-option-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wctb-fe-option-container > label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wctb-fe-option-container select {
+    margin: 0.75rem 0 1rem 0;
+    padding: 0.75rem 0.4rem;
+    color: #777;
+    background-color: #fafafa;
+}
+
+.wctb-fe-required {
+    color: red;
+    font-weight: 600;
+}
+
+/* --------------------------------------------- */
+/* Dimensions ---------------------------------- */
+/* --------------------------------------------- */
+
+.wctb-fe-dimensions {
+    margin: 0.25rem 0;
+    margin-bottom: 1.75rem;
+}
+
+.wctb-fe-dimensions-label-row, .wctb-fe-dimensions-input-row {
+    justify-content: space-between;
+}
+
+.wctb-fe-dimensions-label-row label {
+    width: 24%;
+}
+
+.wctb-fe-dimensions-input-row input {
+    width: 24%;
+    padding: 0.5rem !important;
+    background-color: #fafafa;
+}
+
+.wctb-fe-circle-diameter {
+    justify-content: unset;
+}
+
+.wctb-fe-circle-diameter input, .wctb-fe-circle-diameter label {
+    width: 32%;
+    margin-right: 7px;
+}
+
+.wctb-fe-dimensions-label-row {
+    margin-top: 0.5rem;
+}
+
+/* --------------------------------------------- */
+/* Color Swatches ------------------------------ */
+/* --------------------------------------------- */
+
+.wctb-fe-colors {
+    margin-top: 1rem;
+}
+.wctb-fe-color-swatches {
+    margin: 0.65rem 0 1.25rem 0;
+    border: 1px solid #BBB;
+    padding: 0.7rem 0.5rem 0.4rem 0.5rem;
+    background-color: #fafafa;
+}
+.wctb-fe-color-swatch input[type="radio"] {
+    display: none;
+}
+.wctb-fe-color-swatch input[type="radio"]:checked + label {
+    border: 2px solid black;
+    padding: 2px;
+}
+.wctb-fe-color-swatch input[type="radio"]:checked + label span {
+    border-radius: unset;
+}
+.wctb-fe-color-swatch label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+.wctb-fe-color-swatch label span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+
+/* --------------------------------------------- */
+/* Custom Grommet Side Inputs ------------------ */
+/* --------------------------------------------- */
+
+.hidden {
+    display: none;
+}
+
+.wctb-fe-side-inputs, .wctb-fe-side-input-labels {
+    justify-content: space-between;
+}
+
+.wctb-fe-side-inputs input, .wctb-fe-side-input-labels label {
+    width: 24%;
+}
+
+.wctb-fe-side-inputs input {
+    padding: 0.5rem !important;
+}
+
+.wctb-fe-special-instructions-container, .wctb-fe-grommet-spacing-container {
+    margin-top: 1rem;
+}
+
+.wctb-fe-grommet-spacing-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.wctb-fe-grommet-spacing {
+    font-weight: 700;
+}
+
+.wctb-fe-grommet-spacing-container span {
+    font-size: 13px;
+}
+
+
+/* --------------------------------------------- */
+/* Prices -------------------------------------- */
+/* --------------------------------------------- */
+
+.wctb-fe-price-container {
+    width: 100%;
+    margin: 0.5rem 0 2rem 0;
+}
+.wctb-fe-price-container label {
+    font-weight: 700;
+    margin-right: 0.5rem;
+    line-height: 2.4;
+    font-size: 18px;
+}
+#wctb-fe-price {
+    color: #77a464;
+    font-size: 24px !important;
+    font-weight: 600;
+}
+
+
+/* --------------------------------------------- */
+/* Order Summary ------------------------------- */
+/* --------------------------------------------- */
+
+
+.wctb-order-summary > div span:first-of-type {
+    margin-right: 0.5rem;
+    font-weight: 500;
+}

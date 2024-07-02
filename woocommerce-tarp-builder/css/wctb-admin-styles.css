@@ -1,0 +1,205 @@
+/* --------------------------------------------- */
+/* WooCommerce Custom Tarp Builders Admin --------------------------------------------------------------------------------- */
+/* --------------------------------------------- */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wctb-edit-container {
+    padding-bottom: 5px;
+}
+
+.wctb-edit-container label {
+    display: block;
+    font-weight: 700;
+    padding: 0;
+    margin: 8px 0 3px 0;
+    padding-left: 2px;
+}
+
+/* --------------------------------------------- */
+/* Materials ----------------------------------- */
+/* --------------------------------------------- */
+
+.wctb-edit-materials {
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.material-input-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.material-name, .wctb-edit-materiallabel-1 {
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.material-baseprice, .wctb-edit-materiallabel-2 {
+    min-width: 17%;
+    max-width: 17%;
+}
+.material-hemmedprice, .wctb-edit-materiallabel-3 {
+    min-width: 23%;
+    max-width: 23%;
+}
+
+.material-colors, .wctb-edit-materiallabel-4 {
+    width: 30%;
+}
+
+
+/* --------------------------------------------- */
+/* Edges --------------------------------------- */
+/* --------------------------------------------- */
+
+.wctb-edit-edge {
+    padding-top: 16px;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.edge-name, .wctb-edit-edgelabel-1 {
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.edge-baseprice, .wctb-edit-edgelabel-2 {
+    width: 50%;
+}
+
+.edge-input-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+/* --------------------------------------------- */
+/* Add and Remove ------------------------------ */
+/* --------------------------------------------- */
+
+.wctb-edit-remove-btn {
+    background-color: #FFDDDD;
+    border: 1px solid #992222;
+    border-radius: 4px;
+    color: #992222;
+    padding: 0 7px;
+    margin: 0 1px 0 2px;
+    cursor: pointer;
+}
+
+.wctb-edit-add-btn {
+    margin-top: 7px;
+    margin-left: 1px;
+    padding: 5px 10px;
+    background-color: #EEFFEE;
+    border: #229921 solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* --------------------------------------------- */
+/* Headings ------------------------------------ */
+/* --------------------------------------------- */
+
+.wctb-edit-headings {
+    margin: 1rem 0 0.5rem 0;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.wctb-edit-headings > div {
+    margin: 0.5rem 0;
+}
+
+.wctb-edit-headings label {
+    width: 10%;
+    min-width: 200px;
+    margin: 0.25rem 0 0 0;
+}
+
+.wctb-edit-headings input {
+    width: 90%;
+}
+
+
+/* --------------------------------------------- */
+/* Custom Edges -------------------------------- */
+/* --------------------------------------------- */
+
+.wctb-edit-customedge {
+    margin: 1rem 0 0.5rem 0;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.wctb-edit-heading-customedgeoption div {
+    width: 50%;
+}
+
+.wctb-edit-customedge input[type="text"], .wctb-edit-customedge textarea {
+    width: 90%;
+}
+
+.wctb-edit-customedge-enabled input {
+    margin: 0.35rem 0 0 0;
+}
+
+.wctb-edit-customedge div label {
+    width: 10%;
+    min-width: 200px;
+    margin: 0.25rem 0 0 0;
+}
+
+.wctb-edit-customedge > div {
+    margin: 0.5rem 0;
+}
+
+.wctb-edit-customedgeoption-price label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.wctb-edit-customedgeoption-price label {
+    min-width: 50px !important;
+}
+
+/* --------------------------------------------- */
+/* Formulas ------------------------------------ */
+/* --------------------------------------------- */
+
+.wctb-edit-formulas {
+    margin: 1rem 0 0.5rem 0;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.wctb-edit-formulas p {
+    margin: 0.3rem 0.1rem;
+}
+
+.wctb-edit-formulas p span:first-of-type {
+    margin-right: 0.5rem;
+    font-weight: 700;
+}
+
+.wctb-edit-formulas label:not(:first-of-type) {
+    margin-top:1rem;
+}
+  
