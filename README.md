@@ -8,4 +8,4 @@ Tarp Builder options on the front end, on the product page.
 ![wctb-front](https://github.com/mdoulos/woocommerce-tarp-builder/assets/25509977/41919f75-96ae-4fc6-805e-543e7251925b)
 
 Tarp Builder options on the back end, on the product edit page.
-![wctb-back](https://github.com/mdoulos/woocommerce-tarp-builder/assets/25509977/67165b8f-1548-4a0a-a45f-df1981570687)
+![tarp-builder-admin-example](https://github.com/user-attachments/assets/10695cdf-127d-45ae-a4cb-560dc94d7bc9)
